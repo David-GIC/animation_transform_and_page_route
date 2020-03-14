@@ -1,5 +1,4 @@
 import 'package:authify/pages/home/home.dart';
-import 'package:authify/pages/login/login.dart';
 import 'package:flutter/material.dart';
 
 class AnimationHomePage extends StatefulWidget {
@@ -29,8 +28,8 @@ class _AnimationHomePageState extends State<AnimationHomePage> with SingleTicker
   @override
   void dispose() {
     // TODO: implement dispose
-    super.dispose();
     _animationController.dispose();
+    super.dispose();
   }
 
   @override

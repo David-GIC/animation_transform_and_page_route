@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 
 class AnimationLoginPage extends StatefulWidget {
 
-
   @override
   _AnimationLoginPageState createState() => _AnimationLoginPageState();
 }
@@ -26,8 +25,8 @@ class _AnimationLoginPageState extends State<AnimationLoginPage> with SingleTick
   @override
   void dispose() {
     // TODO: implement dispose
-    super.dispose();
     _animationController.dispose();
+    super.dispose();
   }
 
   @override
